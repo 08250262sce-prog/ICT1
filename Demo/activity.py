@@ -1,5 +1,5 @@
 name=input("Entre your name:")
-print("Goodmorning"+name)
+print("ramrai ho"+name)
 num1=float(input("Enter the first number:"))
 num2=float(input("Enter the second name:"))
 addition_result=num1+num2
