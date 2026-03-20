@@ -6,3 +6,9 @@ multiplication_result=a*b
 division_result=a/b
 exponentiation_result=a**b
 modulus_result=a%b
+print("Addition",addition_result)
+print("Substraaction",substraction_result)
+print("Multiplication",multiplication_result)
+print("Division",division_result)
+print("Exponentiation",exponentiation_result)
+print("Modulus",modulus_result)
