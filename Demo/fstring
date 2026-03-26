@@ -1,0 +1,3 @@
+topic="formating string"
+print(f"we are currently learning {topic}")
+print(f"There are 12 girl and 16 boys in our class. so in total we have {12+16} students")
