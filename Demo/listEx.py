@@ -18,5 +18,9 @@ del My_list[-1]
 print(My_list)
 My_repeated_list.clear()
 print(My_repeated_list)
-
-
+My_list.insert(5,False)
+My_list.pop(6)
+print(My_list)
+del My_list[5]
+My_list.insert(5,False)
+print(My_list)
