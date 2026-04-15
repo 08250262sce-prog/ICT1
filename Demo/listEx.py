@@ -24,3 +24,5 @@ print(My_list)
 del My_list[5]
 My_list.insert(5,False)
 print(My_list)
+My_list[5]=False
+print(My_list)
