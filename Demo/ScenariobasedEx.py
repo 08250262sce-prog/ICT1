@@ -1,9 +1,9 @@
-student_name=input("Enter student  name:")
+student_name=input("Enter student  name:")                    
 days_borrowed=int(input("Number of days book  was borrowed:"))
 days_late=int(input("0 if returned on time:"))
-fine_per_day=0
+fine_per_day=0 
 total_fine=0
-warning_message=""
+warning_message="__"
 if days_late==0:
     fine_per_day=0
 elif 1<=days_late <=5:
