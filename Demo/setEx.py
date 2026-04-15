@@ -1,4 +1,4 @@
-my_set={1,2,3,"Hello",3.14,1,2,False} #Creating a set with duplicate valuesf  
+my_set={1,2,3,"Hello",3.14,1,2,False} #Creating a set with duplicate values 
 print(type(my_set))#Data type of my_set is set
 print(my_set) #Sets do not allow duplicate values, so the duplicate values will be removed
 #my_set[0]="Start" #This will raise an error as sets are unordered and do not support indexing aditionally, set are immutable
