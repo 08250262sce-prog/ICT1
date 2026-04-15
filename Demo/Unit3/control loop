@@ -1,0 +1,14 @@
+#Break loop example
+for i in range (4):
+    if i == 2:
+        break# it breaks the loop when i is equal to 2
+    print(i)
+print("Loop ended")# it prints a message after the loop is ended   
+
+#Continue loop example
+for i in range (4):
+    if i == 2:
+        continue # the continue statement is used to skip the current itteration of the loopm when the value of i is equal go  2 and move to the next itteration of the loop
+    print(i)
+print("Loop ended")# it prints a message after the loop is ended
+
