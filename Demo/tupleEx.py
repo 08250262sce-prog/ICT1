@@ -2,7 +2,8 @@ my_tuple=('Hello',123456)
 print(type(my_tuple))#Data type of my_tuple is tuple
 print(my_tuple)
 print(my_tuple[0])#Accessing first element of the tuple
-print(my_tuple[1])#Accessing second element of the tuple
+new_var = print(my_tuple[1])
+new_var#Accessing second element of the tuple
 a,b=my_tuple#Unpacking the tuple
 print(b) #Tuples are immutable, we cannot change the value of an element in a tuple
 new_tup=tuple(a) #convert string 'hello' to a tuple of characters
